@@ -59,7 +59,7 @@ fi
 if [ "$color_prompt" = yes ]; then
 	# PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]@\h\[\033[00m\],\[\033[01;34m\]\u\[\033[00m\]:\$(__git_ps1) \[\033[01;34m\]\W \[\033[00m\]\$ "
 	# PROMPT_COMMAND='__git_ps1 "\u@\h:\w" "\\\$ "'
-	PROMPT_COMMAND='__git_ps1 "\[\033[01;34m\]\u\[\033[01;32m\]@\h\[\033[00m\] : \[\033[01;34m\]\W\[\033[00m\]" "\n \[\033[01;32m\]$ \[\033[00m\]"'
+	PROMPT_COMMAND='__git_ps1 "$CONDA_PROMPT_MODIFIER\[\033[01;34m\]\u\[\033[01;32m\]@\h\[\033[00m\] : \[\033[01;34m\]\W\[\033[00m\]" "\n \[\033[01;32m\]$ \[\033[00m\]"'
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
