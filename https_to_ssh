@@ -8,6 +8,6 @@ Le lien officiel (chez github):
   https://help.github.com/articles/connecting-to-github-with-ssh/
 
 La bonne façon de le démarrer:
-  git remote set-url orgin git@igthub.com:gmagannaDevelop/repo_name.git
+  git remote set-url orgin git@github.com:gmagannaDevelop/repo_name.git
 
 
