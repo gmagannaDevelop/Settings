@@ -133,6 +133,10 @@ export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
 export GIT_PS1_SHOWUPSTREAM="auto"
 
+# Set vim as the default editor.
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 
 ## Cordova:
 export ANDROID_HOME="/home/gml/Android/Sdk"
