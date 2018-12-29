@@ -10,4 +10,12 @@ Le lien officiel (chez github):
 La bonne façon de le démarrer:
   git remote set-url orgin git@github.com:gmagannaDevelop/repo_name.git
 
+# Les commandes:
+    cd ~/.ssh && ssh-keygen -t rsa -C "gmganna.biomed@gmail.com"
+
+Après il faut aller sur github.com/settings/ssh et ajouter la clé publique.
+
+# Pour ajouter un origin:
+    git remote -v 
+    git remote set-url origin git@github:gmagannaDevelop/repo.git
 
