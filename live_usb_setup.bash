@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p 'Have you commented out problematic lines on /etc/apt ? (Y/n)' resp
+read -p "Have you commented out problematic lines on /etc/apt ? (Y/n)" resp
 if [ "$resp" == "Y" ]; then
 	echo "Running configuration script... ";
 	setxkbmap es;
@@ -19,4 +19,5 @@ else {
 	echo "Go ahead and delete them";
 	echo " ";
 }
+fi
 
