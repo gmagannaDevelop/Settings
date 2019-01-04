@@ -17,5 +17,7 @@ Après il faut aller sur github.com/settings/ssh et ajouter la clé publique.
 
 # Pour ajouter un origin:
     git remote -v 
-    git remote set-url origin git@github:gmagannaDevelop/repo.git
+mierda ->  git remote set-url origin git@github:gmagannaDevelop/repo.git
+    git remote add origin git@github.com:gmagannaDevelop/Settings.git
+    git pull git@github.com:gmagannaDevelop/Settings.git master
 
